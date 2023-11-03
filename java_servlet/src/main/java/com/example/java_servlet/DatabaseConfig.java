@@ -14,8 +14,8 @@ public class DatabaseConfig {
     dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
     dataSource.setUrl("jdbc:mysql://cs6650-mysql.c6xff3divtzz.us-west-2.rds.amazonaws.com:3306/cs6650");
     //dataSource.setUrl("jdbc:mysql://localhost:3306/cs6650");
-    dataSource.setUsername("sunny");
-    dataSource.setPassword("sunny2000818");
+    dataSource.setUsername("some username");
+    dataSource.setPassword("some password");
 
     dataSource.setInitialSize(20); // initial number of connections
     dataSource.setMaxTotal(45);   // max number of connections
